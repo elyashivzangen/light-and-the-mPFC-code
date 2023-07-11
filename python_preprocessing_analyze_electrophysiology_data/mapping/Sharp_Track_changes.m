@@ -18,3 +18,4 @@ probe_data.Properties.VariableNames(1:3) = {'mm_reference_probe_length_tip', 'mm
 
 writetable(probe_data, fullfile(processed_images_folder, ['probe_data_' num2str(selected_probe) '.csv']), 'Delimiter', ',')
 writetable(borders_table, fullfile(processed_images_folder, ['borders_table_' num2str(selected_probe) '.csv']), 'Delimiter', ',')  
+clusters_mapping(m, p, shrinkage_factor, borders_table, reference_probe_length_tip)
