@@ -6,3 +6,12 @@
   Contact us if you have any questions or if you plan to use it (elyashiv.zangen@mail.huji.ac.il).
   
   The whole dataset used will be available upon publication.
+
+## Pipeline of electrophysiological analysis
+### preprocessing Plexon data:
+1. short-pass and high-pass filtered at 300Hz use Offline Sorter, Plexon.
+2. run pl2kilosort (go to python_preprocessing_analyze_electrophysiology_data - readme for instructions)
+3. run Kilosort 3.0 (https://github.com/MouseLand/Kilosort) on the sequence.bin file (from pl2kilosort) for spike sorting
+4. run python PSTH  (go to python_preprocessing_analyze_electrophysiology_data - readme for instructions)
+5. 
+
