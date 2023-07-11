@@ -13,5 +13,6 @@
 2. run pl2kilosort (go to python_preprocessing_analyze_electrophysiology_data - readme for instructions)
 3. run Kilosort 3.0 (https://github.com/MouseLand/Kilosort) on the sequence.bin file (from pl2kilosort) for spike sorting
 4. run python PSTH  (go to python_preprocessing_analyze_electrophysiology_data - readme for instructions)
-5. 
+5. run cell_display_1 app (matlab_analysis_code/cell_display/cell_display_1.mlapp). load the histogram created from Python PSTH. use the pdf user manual (matlab_analysis_code/USER_MANUAL.pdf)
+    
 
