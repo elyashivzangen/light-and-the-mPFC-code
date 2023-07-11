@@ -1,0 +1,17 @@
+total_cells = 0;
+IR_cell = 0;
+[file, path] = uigetfile('*.mat','MultiSelect','on');%When the user clicks the load psetion button, a window should open to enable the user to select a file.
+cd(path)
+datafile = fullfile(path, file); %save path
+for i = 1:length(datafile)
+    load(datafile{1,i});
+    %     all_data = all_data.all_data;
+    cells = fieldnames(all_data);
+    for j = 1:length(cells)
+        current_cell = all_data.(cells{j});
+        if all_data.(cells{j}).Is_reponsive(2)) %&& (current_cell.new_fit(2).isIntEncoding
+            IR_cell = IR_cell  + 1;
+        end
+    end
+end
+IR_cell
