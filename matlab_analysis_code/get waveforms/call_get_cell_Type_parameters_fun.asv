@@ -1,0 +1,14 @@
+% loop over folders and call get celltype_parameters_function
+clear
+clc
+n = 1;% number of experiments to cell
+for i =1:2
+    [file{i}, path{i}] = uigetfile('temp_wh.dat');
+    exp_id{i} = inputdlg(path{i}, 'PHB',[1 50], "PHB");
+end
+%%
+for i =1:2
+    get_celltype_parameters_function(path{i}, file{i}, exp_id{i});
+end
+
+    
