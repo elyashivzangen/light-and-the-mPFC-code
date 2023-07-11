@@ -1,0 +1,6 @@
+tip_length: 65
+distance_between_channels_same_column: 50
+distance_between_columns: [22, 52]
+shift_between_columns: 25
+lower_column: 'right'
+num_of_channel_per_column: 16
