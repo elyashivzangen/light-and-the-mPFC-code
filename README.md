@@ -6,15 +6,15 @@ A part of the analyzed dataset (‘experiment_data.7z’), to be used in testing
 The complete dataset used in this study will be available upon publication.
 
 ## Requirements
-•	MATLAB (https://www.mathworks.com/products/matlab.html, version R2022a or later).
+•	MATLAB (https://www.mathworks.com/products/matlab.html, version R2022a or later)
 
 •	Python (https://www.python.org/)
 
 •	The npy-matlab repository
 
-•	The Allen Mouse Brain Atlas volume and annotations (download all 4 files from this link).
+•	The Allen Mouse Brain Atlas volume and annotations (download all 4 files from this link)
 
-Typical install time of the above software and dependencies is estimated to be around 15 min.
+Typical install time of the above software and dependencies is estimated to be around 15 min
 
 ## Pipeline of electrophysiological analysis
 ### Preprocess electrophysiological data of a single experiment 
