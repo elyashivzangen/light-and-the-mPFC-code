@@ -10,11 +10,12 @@ The complete dataset used in this study will be available upon publication.
 
 •	Python (https://www.python.org/)
 
-•	The npy-matlab repository
+•	The npy-matlab repository (https://github.com/kwikteam/npy-matlab)
 
-•	The Allen Mouse Brain Atlas volume and annotations (download all 4 files from this link)
+•	The Allen Mouse Brain Atlas volume and annotations (http://data.cortexlab.net/allenCCF/, download all 4 files from this link)
 
-Typical install time of the above software and dependencies is estimated to be around 15 min
+Typical install time of the above software and dependencies is estimated to be around 15 min.
+
 
 ## Pipeline of electrophysiological analysis
 ### Preprocess electrophysiological data of a single experiment 
