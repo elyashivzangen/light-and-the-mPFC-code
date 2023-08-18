@@ -1,4 +1,4 @@
-# Analysing Electrophysiology Data
+# Analyzing Electrophysiology Data
 
 ## When running this code the first time
 Run the following steps only in the first time you are using this code
